@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACB7B71727CEE429001E6F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B71627CEE429001E6F25 /* AppDelegate.swift */; };
+		ACB7B71927CEE429001E6F25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B71827CEE429001E6F25 /* SceneDelegate.swift */; };
+		ACB7B71B27CEE429001E6F25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B71A27CEE429001E6F25 /* ViewController.swift */; };
+		ACB7B71E27CEE429001E6F25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB7B71C27CEE429001E6F25 /* Main.storyboard */; };
+		ACB7B72027CEE42A001E6F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB7B71F27CEE42A001E6F25 /* Assets.xcassets */; };
+		ACB7B72327CEE42A001E6F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB7B72127CEE42A001E6F25 /* LaunchScreen.storyboard */; };
+		ACB7B72E27CEE42A001E6F25 /* Chaganti_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B72D27CEE42A001E6F25 /* Chaganti_SearchAppTests.swift */; };
+		ACB7B73827CEE42A001E6F25 /* Chaganti_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B73727CEE42A001E6F25 /* Chaganti_SearchAppUITests.swift */; };
+		ACB7B73A27CEE42A001E6F25 /* Chaganti_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B73927CEE42A001E6F25 /* Chaganti_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACB7B72A27CEE42A001E6F25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB7B70B27CEE429001E6F25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB7B71227CEE429001E6F25;
+			remoteInfo = Chaganti_SearchApp;
+		};
+		ACB7B73427CEE42A001E6F25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB7B70B27CEE429001E6F25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB7B71227CEE429001E6F25;
+			remoteInfo = Chaganti_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACB7B71327CEE429001E6F25 /* Chaganti_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaganti_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB7B71627CEE429001E6F25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACB7B71827CEE429001E6F25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACB7B71A27CEE429001E6F25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACB7B71D27CEE429001E6F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACB7B71F27CEE42A001E6F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACB7B72227CEE42A001E6F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACB7B72427CEE42A001E6F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB7B72927CEE42A001E6F25 /* Chaganti_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chaganti_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB7B72D27CEE42A001E6F25 /* Chaganti_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chaganti_SearchAppTests.swift; sourceTree = "<group>"; };
+		ACB7B73327CEE42A001E6F25 /* Chaganti_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chaganti_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB7B73727CEE42A001E6F25 /* Chaganti_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chaganti_SearchAppUITests.swift; sourceTree = "<group>"; };
+		ACB7B73927CEE42A001E6F25 /* Chaganti_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chaganti_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB7B71027CEE429001E6F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB7B72627CEE42A001E6F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB7B73027CEE42A001E6F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACB7B70A27CEE429001E6F25 = {
+			isa = PBXGroup;
+			children = (
+				ACB7B71527CEE429001E6F25 /* Chaganti_SearchApp */,
+				ACB7B72C27CEE42A001E6F25 /* Chaganti_SearchAppTests */,
+				ACB7B73627CEE42A001E6F25 /* Chaganti_SearchAppUITests */,
+				ACB7B71427CEE429001E6F25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB7B71427CEE429001E6F25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7B71327CEE429001E6F25 /* Chaganti_SearchApp.app */,
+				ACB7B72927CEE42A001E6F25 /* Chaganti_SearchAppTests.xctest */,
+				ACB7B73327CEE42A001E6F25 /* Chaganti_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB7B71527CEE429001E6F25 /* Chaganti_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7B71627CEE429001E6F25 /* AppDelegate.swift */,
+				ACB7B71827CEE429001E6F25 /* SceneDelegate.swift */,
+				ACB7B71A27CEE429001E6F25 /* ViewController.swift */,
+				ACB7B71C27CEE429001E6F25 /* Main.storyboard */,
+				ACB7B71F27CEE42A001E6F25 /* Assets.xcassets */,
+				ACB7B72127CEE42A001E6F25 /* LaunchScreen.storyboard */,
+				ACB7B72427CEE42A001E6F25 /* Info.plist */,
+			);
+			path = Chaganti_SearchApp;
+			sourceTree = "<group>";
+		};
+		ACB7B72C27CEE42A001E6F25 /* Chaganti_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7B72D27CEE42A001E6F25 /* Chaganti_SearchAppTests.swift */,
+			);
+			path = Chaganti_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		ACB7B73627CEE42A001E6F25 /* Chaganti_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7B73727CEE42A001E6F25 /* Chaganti_SearchAppUITests.swift */,
+				ACB7B73927CEE42A001E6F25 /* Chaganti_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Chaganti_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB7B71227CEE429001E6F25 /* Chaganti_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB7B73D27CEE42A001E6F25 /* Build configuration list for PBXNativeTarget "Chaganti_SearchApp" */;
+			buildPhases = (
+				ACB7B70F27CEE429001E6F25 /* Sources */,
+				ACB7B71027CEE429001E6F25 /* Frameworks */,
+				ACB7B71127CEE429001E6F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chaganti_SearchApp;
+			productName = Chaganti_SearchApp;
+			productReference = ACB7B71327CEE429001E6F25 /* Chaganti_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACB7B72827CEE42A001E6F25 /* Chaganti_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB7B74027CEE42A001E6F25 /* Build configuration list for PBXNativeTarget "Chaganti_SearchAppTests" */;
+			buildPhases = (
+				ACB7B72527CEE42A001E6F25 /* Sources */,
+				ACB7B72627CEE42A001E6F25 /* Frameworks */,
+				ACB7B72727CEE42A001E6F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB7B72B27CEE42A001E6F25 /* PBXTargetDependency */,
+			);
+			name = Chaganti_SearchAppTests;
+			productName = Chaganti_SearchAppTests;
+			productReference = ACB7B72927CEE42A001E6F25 /* Chaganti_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACB7B73227CEE42A001E6F25 /* Chaganti_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB7B74327CEE42A001E6F25 /* Build configuration list for PBXNativeTarget "Chaganti_SearchAppUITests" */;
+			buildPhases = (
+				ACB7B72F27CEE42A001E6F25 /* Sources */,
+				ACB7B73027CEE42A001E6F25 /* Frameworks */,
+				ACB7B73127CEE42A001E6F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB7B73527CEE42A001E6F25 /* PBXTargetDependency */,
+			);
+			name = Chaganti_SearchAppUITests;
+			productName = Chaganti_SearchAppUITests;
+			productReference = ACB7B73327CEE42A001E6F25 /* Chaganti_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB7B70B27CEE429001E6F25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ACB7B71227CEE429001E6F25 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ACB7B72827CEE42A001E6F25 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = ACB7B71227CEE429001E6F25;
+					};
+					ACB7B73227CEE42A001E6F25 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = ACB7B71227CEE429001E6F25;
+					};
+				};
+			};
+			buildConfigurationList = ACB7B70E27CEE429001E6F25 /* Build configuration list for PBXProject "Chaganti_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB7B70A27CEE429001E6F25;
+			productRefGroup = ACB7B71427CEE429001E6F25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB7B71227CEE429001E6F25 /* Chaganti_SearchApp */,
+				ACB7B72827CEE42A001E6F25 /* Chaganti_SearchAppTests */,
+				ACB7B73227CEE42A001E6F25 /* Chaganti_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB7B71127CEE429001E6F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB7B72327CEE42A001E6F25 /* LaunchScreen.storyboard in Resources */,
+				ACB7B72027CEE42A001E6F25 /* Assets.xcassets in Resources */,
+				ACB7B71E27CEE429001E6F25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB7B72727CEE42A001E6F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB7B73127CEE42A001E6F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB7B70F27CEE429001E6F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB7B71B27CEE429001E6F25 /* ViewController.swift in Sources */,
+				ACB7B71727CEE429001E6F25 /* AppDelegate.swift in Sources */,
+				ACB7B71927CEE429001E6F25 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB7B72527CEE42A001E6F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB7B72E27CEE42A001E6F25 /* Chaganti_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB7B72F27CEE42A001E6F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB7B73827CEE42A001E6F25 /* Chaganti_SearchAppUITests.swift in Sources */,
+				ACB7B73A27CEE42A001E6F25 /* Chaganti_SearchAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB7B72B27CEE42A001E6F25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB7B71227CEE429001E6F25 /* Chaganti_SearchApp */;
+			targetProxy = ACB7B72A27CEE42A001E6F25 /* PBXContainerItemProxy */;
+		};
+		ACB7B73527CEE42A001E6F25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB7B71227CEE429001E6F25 /* Chaganti_SearchApp */;
+			targetProxy = ACB7B73427CEE42A001E6F25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACB7B71C27CEE429001E6F25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB7B71D27CEE429001E6F25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACB7B72127CEE42A001E6F25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB7B72227CEE42A001E6F25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB7B73B27CEE42A001E6F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACB7B73C27CEE42A001E6F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB7B73E27CEE42A001E6F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chaganti_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chaganti_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACB7B73F27CEE42A001E6F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chaganti_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chaganti_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACB7B74127CEE42A001E6F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaganti_SearchApp.app/Chaganti_SearchApp";
+			};
+			name = Debug;
+		};
+		ACB7B74227CEE42A001E6F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaganti_SearchApp.app/Chaganti_SearchApp";
+			};
+			name = Release;
+		};
+		ACB7B74427CEE42A001E6F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chaganti_SearchApp;
+			};
+			name = Debug;
+		};
+		ACB7B74527CEE42A001E6F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chaganti_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB7B70E27CEE429001E6F25 /* Build configuration list for PBXProject "Chaganti_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB7B73B27CEE42A001E6F25 /* Debug */,
+				ACB7B73C27CEE42A001E6F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB7B73D27CEE42A001E6F25 /* Build configuration list for PBXNativeTarget "Chaganti_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB7B73E27CEE42A001E6F25 /* Debug */,
+				ACB7B73F27CEE42A001E6F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB7B74027CEE42A001E6F25 /* Build configuration list for PBXNativeTarget "Chaganti_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB7B74127CEE42A001E6F25 /* Debug */,
+				ACB7B74227CEE42A001E6F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB7B74327CEE42A001E6F25 /* Build configuration list for PBXNativeTarget "Chaganti_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB7B74427CEE42A001E6F25 /* Debug */,
+				ACB7B74527CEE42A001E6F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB7B70B27CEE429001E6F25 /* Project object */;
+}
