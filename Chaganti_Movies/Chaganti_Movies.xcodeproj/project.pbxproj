@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA4D0A42816063900F3703A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0A32816063900F3703A /* AppDelegate.swift */; };
+		ACA4D0A62816063900F3703A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0A52816063900F3703A /* SceneDelegate.swift */; };
+		ACA4D0A82816063900F3703A /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0A72816063900F3703A /* GenreViewController.swift */; };
+		ACA4D0AB2816063900F3703A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA4D0A92816063900F3703A /* Main.storyboard */; };
+		ACA4D0AD2816063B00F3703A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA4D0AC2816063B00F3703A /* Assets.xcassets */; };
+		ACA4D0B02816063B00F3703A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA4D0AE2816063B00F3703A /* LaunchScreen.storyboard */; };
+		ACA4D0BB2816063B00F3703A /* Chaganti_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0BA2816063B00F3703A /* Chaganti_MoviesTests.swift */; };
+		ACA4D0C52816063B00F3703A /* Chaganti_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0C42816063B00F3703A /* Chaganti_MoviesUITests.swift */; };
+		ACA4D0C72816063B00F3703A /* Chaganti_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0C62816063B00F3703A /* Chaganti_MoviesUITestsLaunchTests.swift */; };
+		ACA4D0D42816082E00F3703A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0D32816082E00F3703A /* MoviesViewController.swift */; };
+		ACA4D0D628160C2800F3703A /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0D528160C2800F3703A /* MovieCollectionViewCell.swift */; };
+		ACA4D0D8281613EC00F3703A /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4D0D7281613EC00F3703A /* MovieData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA4D0B72816063B00F3703A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA4D0982816063900F3703A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA4D09F2816063900F3703A;
+			remoteInfo = Chaganti_Movies;
+		};
+		ACA4D0C12816063B00F3703A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA4D0982816063900F3703A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA4D09F2816063900F3703A;
+			remoteInfo = Chaganti_Movies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACA4D0A02816063900F3703A /* Chaganti_Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaganti_Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA4D0A32816063900F3703A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACA4D0A52816063900F3703A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACA4D0A72816063900F3703A /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
+		ACA4D0AA2816063900F3703A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA4D0AC2816063B00F3703A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA4D0AF2816063B00F3703A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACA4D0B12816063B00F3703A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA4D0B62816063B00F3703A /* Chaganti_MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chaganti_MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA4D0BA2816063B00F3703A /* Chaganti_MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chaganti_MoviesTests.swift; sourceTree = "<group>"; };
+		ACA4D0C02816063B00F3703A /* Chaganti_MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chaganti_MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA4D0C42816063B00F3703A /* Chaganti_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chaganti_MoviesUITests.swift; sourceTree = "<group>"; };
+		ACA4D0C62816063B00F3703A /* Chaganti_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chaganti_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACA4D0D32816082E00F3703A /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		ACA4D0D528160C2800F3703A /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		ACA4D0D7281613EC00F3703A /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA4D09D2816063900F3703A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA4D0B32816063B00F3703A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA4D0BD2816063B00F3703A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA4D0972816063900F3703A = {
+			isa = PBXGroup;
+			children = (
+				ACA4D0A22816063900F3703A /* Chaganti_Movies */,
+				ACA4D0B92816063B00F3703A /* Chaganti_MoviesTests */,
+				ACA4D0C32816063B00F3703A /* Chaganti_MoviesUITests */,
+				ACA4D0A12816063900F3703A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA4D0A12816063900F3703A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4D0A02816063900F3703A /* Chaganti_Movies.app */,
+				ACA4D0B62816063B00F3703A /* Chaganti_MoviesTests.xctest */,
+				ACA4D0C02816063B00F3703A /* Chaganti_MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA4D0A22816063900F3703A /* Chaganti_Movies */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4D0A32816063900F3703A /* AppDelegate.swift */,
+				ACA4D0A52816063900F3703A /* SceneDelegate.swift */,
+				ACA4D0A72816063900F3703A /* GenreViewController.swift */,
+				ACA4D0A92816063900F3703A /* Main.storyboard */,
+				ACA4D0AC2816063B00F3703A /* Assets.xcassets */,
+				ACA4D0AE2816063B00F3703A /* LaunchScreen.storyboard */,
+				ACA4D0B12816063B00F3703A /* Info.plist */,
+				ACA4D0D32816082E00F3703A /* MoviesViewController.swift */,
+				ACA4D0D528160C2800F3703A /* MovieCollectionViewCell.swift */,
+				ACA4D0D7281613EC00F3703A /* MovieData.swift */,
+			);
+			path = Chaganti_Movies;
+			sourceTree = "<group>";
+		};
+		ACA4D0B92816063B00F3703A /* Chaganti_MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4D0BA2816063B00F3703A /* Chaganti_MoviesTests.swift */,
+			);
+			path = Chaganti_MoviesTests;
+			sourceTree = "<group>";
+		};
+		ACA4D0C32816063B00F3703A /* Chaganti_MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4D0C42816063B00F3703A /* Chaganti_MoviesUITests.swift */,
+				ACA4D0C62816063B00F3703A /* Chaganti_MoviesUITestsLaunchTests.swift */,
+			);
+			path = Chaganti_MoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA4D09F2816063900F3703A /* Chaganti_Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA4D0CA2816063B00F3703A /* Build configuration list for PBXNativeTarget "Chaganti_Movies" */;
+			buildPhases = (
+				ACA4D09C2816063900F3703A /* Sources */,
+				ACA4D09D2816063900F3703A /* Frameworks */,
+				ACA4D09E2816063900F3703A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chaganti_Movies;
+			productName = Chaganti_Movies;
+			productReference = ACA4D0A02816063900F3703A /* Chaganti_Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA4D0B52816063B00F3703A /* Chaganti_MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA4D0CD2816063B00F3703A /* Build configuration list for PBXNativeTarget "Chaganti_MoviesTests" */;
+			buildPhases = (
+				ACA4D0B22816063B00F3703A /* Sources */,
+				ACA4D0B32816063B00F3703A /* Frameworks */,
+				ACA4D0B42816063B00F3703A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA4D0B82816063B00F3703A /* PBXTargetDependency */,
+			);
+			name = Chaganti_MoviesTests;
+			productName = Chaganti_MoviesTests;
+			productReference = ACA4D0B62816063B00F3703A /* Chaganti_MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACA4D0BF2816063B00F3703A /* Chaganti_MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA4D0D02816063B00F3703A /* Build configuration list for PBXNativeTarget "Chaganti_MoviesUITests" */;
+			buildPhases = (
+				ACA4D0BC2816063B00F3703A /* Sources */,
+				ACA4D0BD2816063B00F3703A /* Frameworks */,
+				ACA4D0BE2816063B00F3703A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA4D0C22816063B00F3703A /* PBXTargetDependency */,
+			);
+			name = Chaganti_MoviesUITests;
+			productName = Chaganti_MoviesUITests;
+			productReference = ACA4D0C02816063B00F3703A /* Chaganti_MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA4D0982816063900F3703A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ACA4D09F2816063900F3703A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ACA4D0B52816063B00F3703A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = ACA4D09F2816063900F3703A;
+					};
+					ACA4D0BF2816063B00F3703A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = ACA4D09F2816063900F3703A;
+					};
+				};
+			};
+			buildConfigurationList = ACA4D09B2816063900F3703A /* Build configuration list for PBXProject "Chaganti_Movies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA4D0972816063900F3703A;
+			productRefGroup = ACA4D0A12816063900F3703A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA4D09F2816063900F3703A /* Chaganti_Movies */,
+				ACA4D0B52816063B00F3703A /* Chaganti_MoviesTests */,
+				ACA4D0BF2816063B00F3703A /* Chaganti_MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA4D09E2816063900F3703A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA4D0B02816063B00F3703A /* LaunchScreen.storyboard in Resources */,
+				ACA4D0AD2816063B00F3703A /* Assets.xcassets in Resources */,
+				ACA4D0AB2816063900F3703A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA4D0B42816063B00F3703A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA4D0BE2816063B00F3703A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA4D09C2816063900F3703A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA4D0D8281613EC00F3703A /* MovieData.swift in Sources */,
+				ACA4D0A82816063900F3703A /* GenreViewController.swift in Sources */,
+				ACA4D0A42816063900F3703A /* AppDelegate.swift in Sources */,
+				ACA4D0D628160C2800F3703A /* MovieCollectionViewCell.swift in Sources */,
+				ACA4D0A62816063900F3703A /* SceneDelegate.swift in Sources */,
+				ACA4D0D42816082E00F3703A /* MoviesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA4D0B22816063B00F3703A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA4D0BB2816063B00F3703A /* Chaganti_MoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA4D0BC2816063B00F3703A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA4D0C72816063B00F3703A /* Chaganti_MoviesUITestsLaunchTests.swift in Sources */,
+				ACA4D0C52816063B00F3703A /* Chaganti_MoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA4D0B82816063B00F3703A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA4D09F2816063900F3703A /* Chaganti_Movies */;
+			targetProxy = ACA4D0B72816063B00F3703A /* PBXContainerItemProxy */;
+		};
+		ACA4D0C22816063B00F3703A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA4D09F2816063900F3703A /* Chaganti_Movies */;
+			targetProxy = ACA4D0C12816063B00F3703A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACA4D0A92816063900F3703A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA4D0AA2816063900F3703A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACA4D0AE2816063B00F3703A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA4D0AF2816063B00F3703A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA4D0C82816063B00F3703A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACA4D0C92816063B00F3703A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA4D0CB2816063B00F3703A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chaganti_Movies/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chaganti_Movies;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACA4D0CC2816063B00F3703A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chaganti_Movies/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chaganti_Movies;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACA4D0CE2816063B00F3703A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaganti_Movies.app/Chaganti_Movies";
+			};
+			name = Debug;
+		};
+		ACA4D0CF2816063B00F3703A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaganti_Movies.app/Chaganti_Movies";
+			};
+			name = Release;
+		};
+		ACA4D0D12816063B00F3703A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chaganti_Movies;
+			};
+			name = Debug;
+		};
+		ACA4D0D22816063B00F3703A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chaganti-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chaganti_Movies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA4D09B2816063900F3703A /* Build configuration list for PBXProject "Chaganti_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA4D0C82816063B00F3703A /* Debug */,
+				ACA4D0C92816063B00F3703A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA4D0CA2816063B00F3703A /* Build configuration list for PBXNativeTarget "Chaganti_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA4D0CB2816063B00F3703A /* Debug */,
+				ACA4D0CC2816063B00F3703A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA4D0CD2816063B00F3703A /* Build configuration list for PBXNativeTarget "Chaganti_MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA4D0CE2816063B00F3703A /* Debug */,
+				ACA4D0CF2816063B00F3703A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA4D0D02816063B00F3703A /* Build configuration list for PBXNativeTarget "Chaganti_MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA4D0D12816063B00F3703A /* Debug */,
+				ACA4D0D22816063B00F3703A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA4D0982816063900F3703A /* Project object */;
+}
